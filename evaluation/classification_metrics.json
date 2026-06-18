@@ -1,0 +1,244 @@
+{
+  "accuracy": 0.9978354978354979,
+  "macro_f1": 0.9979762534251985,
+  "report": {
+    "ACCOUNT": {
+      "precision": 0.9963369963369964,
+      "recall": 0.9987760097919217,
+      "f1-score": 0.9975550122249389,
+      "support": 817.0
+    },
+    "CANCEL": {
+      "precision": 0.993006993006993,
+      "recall": 1.0,
+      "f1-score": 0.9964912280701754,
+      "support": 142.0
+    },
+    "CONTACT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    },
+    "DELIVERY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 249.0
+    },
+    "FEEDBACK": {
+      "precision": 0.9966777408637874,
+      "recall": 1.0,
+      "f1-score": 0.9983361064891847,
+      "support": 300.0
+    },
+    "INVOICE": {
+      "precision": 1.0,
+      "recall": 0.9963503649635036,
+      "f1-score": 0.9981718464351006,
+      "support": 274.0
+    },
+    "ORDER": {
+      "precision": 0.9978902953586498,
+      "recall": 0.9957894736842106,
+      "f1-score": 0.9968387776606955,
+      "support": 475.0
+    },
+    "PAYMENT": {
+      "precision": 0.9966442953020134,
+      "recall": 0.99,
+      "f1-score": 0.9933110367892977,
+      "support": 300.0
+    },
+    "REFUND": {
+      "precision": 0.9974683544303797,
+      "recall": 1.0,
+      "f1-score": 0.9987325728770595,
+      "support": 394.0
+    },
+    "SHIPPING": {
+      "precision": 1.0,
+      "recall": 0.9966101694915255,
+      "f1-score": 0.99830220713073,
+      "support": 295.0
+    },
+    "SUBSCRIPTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 150.0
+    },
+    "accuracy": 0.9978354978354979,
+    "macro avg": {
+      "precision": 0.9980022432089836,
+      "recall": 0.9979569107210147,
+      "f1-score": 0.9979762534251985,
+      "support": 3696.0
+    },
+    "weighted avg": {
+      "precision": 0.9978385692113061,
+      "recall": 0.9978354978354979,
+      "f1-score": 0.9978343161489339,
+      "support": 3696.0
+    }
+  },
+  "report_text": "              precision    recall  f1-score   support\n\n     ACCOUNT       1.00      1.00      1.00       817\n      CANCEL       0.99      1.00      1.00       142\n     CONTACT       1.00      1.00      1.00       300\n    DELIVERY       1.00      1.00      1.00       249\n    FEEDBACK       1.00      1.00      1.00       300\n     INVOICE       1.00      1.00      1.00       274\n       ORDER       1.00      1.00      1.00       475\n     PAYMENT       1.00      0.99      0.99       300\n      REFUND       1.00      1.00      1.00       394\n    SHIPPING       1.00      1.00      1.00       295\nSUBSCRIPTION       1.00      1.00      1.00       150\n\n    accuracy                           1.00      3696\n   macro avg       1.00      1.00      1.00      3696\nweighted avg       1.00      1.00      1.00      3696\n",
+  "labels": [
+    "ACCOUNT",
+    "CANCEL",
+    "CONTACT",
+    "DELIVERY",
+    "FEEDBACK",
+    "INVOICE",
+    "ORDER",
+    "PAYMENT",
+    "REFUND",
+    "SHIPPING",
+    "SUBSCRIPTION"
+  ],
+  "confusion_matrix": [
+    [
+      816,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      142,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      300,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      249,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      300,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      273,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      473,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      297,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      394,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      294,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      150
+    ]
+  ]
+}

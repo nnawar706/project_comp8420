@@ -1,0 +1,18 @@
+{
+  "logreg": {
+    "accuracy": 0.997,
+    "macro_f1": 0.9969
+  },
+  "nb": {
+    "accuracy": 0.994,
+    "macro_f1": 0.9937
+  },
+  "svm": {
+    "accuracy": 0.9976,
+    "macro_f1": 0.9976
+  },
+  "mlp": {
+    "accuracy": 0.9981,
+    "macro_f1": 0.9982
+  }
+}
