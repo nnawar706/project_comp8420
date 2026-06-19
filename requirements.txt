@@ -1,0 +1,33 @@
+# Core
+pandas>=2.1,<3
+numpy>=1.26,<2.3
+scikit-learn>=1.4,<1.7
+scipy>=1.11
+joblib>=1.3
+matplotlib>=3.8
+pyarrow>=15.0            # parquet splits (optional; CSV fallback if absent)
+
+# Classical NLP
+spacy>=3.7,<3.9
+vaderSentiment>=3.3.2
+
+# Transformers (optional neural baselines: transformer sentiment / DistilBERT)
+# Heavy — install only if you want the neural comparisons. Uncomment as needed.
+transformers>=4.40
+torch>=2.2
+datasets>=2.18
+
+# RAG
+sentence-transformers>=2.7
+chromadb>=0.5,<0.7
+
+# LLM serving is via Ollama (separate install: https://ollama.com). We call its
+# HTTP API with `requests`, so no Python LLM SDK is required.
+requests>=2.31
+
+# UI
+streamlit>=1.34
+
+# Notebooks
+jupyter>=1.0
+ipywidgets>=8.1          # in-notebook interactive demo (06)

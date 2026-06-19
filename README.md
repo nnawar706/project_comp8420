@@ -114,14 +114,6 @@ python scripts/train_classifier.py
 streamlit run app/streamlit_app.py
 ```
 
-### Run the Pipeline from the Command Line
-
-```bash
-python scripts/run_pipeline.py "My order #48213 hasn't arrived and I'm furious"
-```
-
----
-
 ## Evaluation and Reproducibility
 
 The project includes comprehensive evaluation covering:
@@ -180,3 +172,4 @@ Codes/
 **Author:** Group C
 **Unit:** COMP8420 – Natural Language Processing
 **Project:** Intelligent Customer Service System
+**Recording Link:** https://drive.google.com/file/d/1n1DDOZs0GgbJfyUZ_DBXOrG85YE3mkZD/view?usp=sharing 
